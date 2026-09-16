@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+html{
+    background-image: "assets/img/BeachBackground.jpg";
+}
+header{
+    background-color: #BDBDBD;
+    color: black;
+    }
+header a img{
+    float: right;
+    height: 4vw;
+    }
+h1 {
+    color: white;
+    background-color: rgb(7, 7, 7);
+    font-size: 4vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    margin: 0vw;
+    }
+.container{
+    display: grid;
+    position: absolute;
+    overflow: hidden;
+   
+    @media (max-width: 3000px) {grid-template-columns: 50vw 50vw;}
+    @media (max-width: 1080px) {grid-template-columns: 100vw;}
+    
+}
+.container a{
+    padding: 4vw;
+    @media (max-width: 3000px){height: 6.46vw}
+    @media (max-width: 1080px){height: 12vw}
+    z-index: 2;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(116, 128, 179, 0);
+    transition: background-color .75s, color .75s;
+}
+.container a:hover{
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(116, 128, 179, 0.85);
+    }
+ .container img{
+    z-index: 0;
+    @media (max-width: 3000px){width: 50vw}
+    @media (max-width: 1080px){width: 100vw}
+    @media (max-width: 3000px){height: 14.46vw}
+    @media (max-width: 1080px){height: 20vw}
+ }
+ .info div, li{
+    color: white;
+    background-color: rgba(71, 70, 70, 0.596);
+    width: 75vw;
+ }
+ li{
+    font-size: 1.5vw;
+ }
+ h3, h4{
+    text-decoration: underline;
+    color: white;
+    font-size: 50px;
+ }
+ footer div{
+    width: 10vw;
+    position: fixed;
+    z-index: 6;
+    text-align: center;
+    right: 10px;
+    bottom: 10px;
+    color:white;
+    background-color:  rgba(116, 128, 179, .75);
+    border-radius: 20px;
+ }
+#navBar{
+                background-color: rgba(0, 18, 98, 1);
+                @media (max-width: 9000px){font-size: 1.5vw;}
+                @media (max-width: 1080px){font-size: 1vw;}
+                padding: 1vw;
+                transition: top .75s;
+            }
+            #navBar a{
+                color: white;
+                text-decoration: none;
+                
+                padding: 2vw;
+            }
+            #navBar a:hover {
+                    color: #6699CC;
+                }
+            a:hover{
+                        color: #6699CC
+            }
+            section input{
+                height: 1vw;
+                position:absolute;
+                right:0vw;
+                width:80vw;
+                font-size: 1.5vw;
+            }
+            body{
+                font-size: 2vw;
+                margin: 0;
+                z-index: 4;
+                padding: 0;
+                background-image: url("assets/img/BeachBackground.jpg");
+                background-size: 120vw;
+                a{
+                    color:#6699CC;
+                }
+                p{
+                    padding:2vw
+                }
+            }
+            body a:visited, li a:visited{
+                color:#003B6D;
+            }
+            div a{
+                color: black
+            }
