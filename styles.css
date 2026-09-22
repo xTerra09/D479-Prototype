@@ -104,7 +104,7 @@ h1 {
                 margin: 0;
                 z-index: 4;
                 padding: 0;
-                background-image: url("assets/img/BeachBackground.jpg");
+                background-image: url("BeachBackground.jpg");
                 background-size: 120vw;
                 a{
                     color:#6699CC;
